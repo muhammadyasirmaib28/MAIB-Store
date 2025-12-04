@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>MAIB Store</title>
+  <!-- Output.CSS Link -->
+  <link rel="stylesheet" href="/dist/output.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/images/logo-image.png" type="image/x-icon">
+  <!-- Animation link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- remix icon link -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/> 
+</head>
+<body class="bg-gray-100 m-0">
+
+    <!-- header section -->
+    <section class="w-full h-auto bg-teal-900 p-5 flex flex-row flex-wrap items-center justify-between">
+        <!-- toggle -->
+        <div class="px-2.5 bg-white/90 rounded-lg md:hidden flex">
+            <p class="text-black/80 font-semibold text-2xl cursor-default">&#8801</p>
+        </div> 
+        <!-- logo -->
+        <div class="flex flex-row items-center gap-1.5">
+            <div class="w-16 h-16 lg:w-20 lg:h-20 overflow-hidden rounded-full cursor-default">
+                <img src="/images/logo-image.png" class="w-full h-full object-cover" alt="logo-image">
+            </div>
+            <p class="lg:text-5xl md:text-3xl text-xl font-semibold text-white">Store</p>
+        </div>
+        <!-- navbar -->
+        <div class="flex items-center gap-6">
+            <nav>
+                <ul class="text-white/90 md:flex flex-row hidden md:text-lg md:gap-4 md:font-light md:cursor-pointer lg:text-xl lg:gap-6">
+                    <li class="md:hover:text-teal-500 transition-all duration-500">Home</li>
+                    <li class="md:hover:text-teal-500 transition-all duration-500">About</li>
+                    <li class="md:hover:text-teal-500 transition-all duration-500">Products</li>
+                    <li class="md:hover:text-teal-500 transition-all duration-500">Contact US</li>
+                </ul>
+            </nav>
+            <!-- button -->
+            <button class="p-2.5 bg-teal-700 text-white/80 rounded-lg text-md cursor-default md:hover:bg-teal-800 transition-all duration-500 md:cursor-pointer">Login/Sign Up</button>   
+        </div>
+    </section>
+
+    <!-- main products adds images section -->
+    <section class="relative z-10 w-full h-96 lg:h-[450px] mt-2.5 overflow-hidden cursor-default">
+        <!-- image's -->
+        <img src="/images/girls-bag-01.jpg" class="w-full h-full object-cover absolute inset-0 -z-10" alt="girls-bag-01">
+        <!-- left & right click -->
+        <div class="flex flex-row flex-wrap justify-between relative top-44 p-5">
+            <p class="px-2.5 bg-gray-100 text-xl rounded-sm cursor-default md:hover:bg-gray-200 md:cursor-pointer"><i class="ri-arrow-left-s-line"></i></p>
+            <p class="px-2.5 bg-gray-100 text-xl rounded-sm cursor-default md:hover:bg-gray-200 md:cursor-pointer"><i class="ri-arrow-right-s-line"></i></p>
+        </div>  
+    </section>
+
+    <!-- products heading section -->
+    <section class="w-full h-auto flex flex-wrap items-center justify-center p-2.5 mt-10 md:mt-20 md:mb-5 lg:mb-8">
+        <div class="w-[80%] h-auto bg-teal-800 text-white/80 font-semibold text-center rounded-sm md:text-2xl lg:text-3xl lg:font-bold">
+            <h1 class="p-1.5 cursor-default md:cursor-text">MAIB Product's</h1>
+        </div>
+    </section>
+    
+    <!-- products cards section -->
+    <section class="w-full h-auto p-2.5 gap-2.5 md:gap-5 xl:gap-8 flex flex-row flex-wrap items-center justify-center"> 
+        <!-- products card 01 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/boys-bag-01.jpg" class="w-full h-full object-cover" alt="boys-bag-01">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Boys Premium Bag</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $50.90</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ ★ <span class="text-black/80">★</span> <span class="text-gray-400">(85)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>        
+        </div>
+        
+        <!-- products card 02 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/boys-bag-02.jpg" class="w-full h-full object-cover" alt="boys-bag-02">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Boys Leather Bag</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $67.70</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ ★ ★ <span class="text-black/80">★</span> <span class="text-gray-400">(95)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- products card 03 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/boys-bag-03.jpg" class="w-full h-full object-cover" alt="boys-bag-03">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Boys Travel Bag</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $30.70</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-gray-400">(55)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>
+        </div>
+
+        <!-- products card 04 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/boys-bag-04.jpg" class="w-full h-full object-cover" alt="boys-bag-04">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Boys Hand Bag</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $80.99</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ ★ ★ <span class="text-black/80">★</span> <span class="text-gray-400">(98)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button>
+            </div>
+        </div>
+        
+        <!-- products card 05 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/boys-bag-05.jpg" class="w-full h-full object-cover" alt="boys-bag-05">
+            </div>
+            <!-- flex div -->
+             <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Boys Small Bag</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $18.40</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-gray-400">(45)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>
+        </div>
+        
+        <!-- products card 06 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/girls-bag-01.jpg" class="w-full h-full object-cover" alt="girls-bag-01">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Girls Unique Bag</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $150.77</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ ★ ★ <span class="text-black/80">★</span> <span class="text-gray-400">(99)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>
+        </div>
+        
+        <!-- products card 07 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/girls-bag-02.jpg" class="w-full h-full object-cover" alt="girls-bag-02">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Girls Make-Up Bag</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $90.90</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ ★ <span class="text-black/80">★</span> <span class="text-gray-400">(80)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>
+        </div>
+        
+        <!-- products card 08 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/girls-bag-03.jpg" class="w-full h-full object-cover" alt="girls-bag-03">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Girls Hand Bag</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $55.10</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm text-yellow-500">★ ★ ★ <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-gray-400">(63)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button>
+            </div>
+        </div>
+        
+        <!-- products card 09 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/girls-bag-04.jpg" class="w-full h-full object-cover" alt="girls-bag-04">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Girls Simple Bag</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $10.30</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-gray-400">(66)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button>
+            </div>
+        </div>
+        
+        <!-- products card 10 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4 xl:gap-2">
+                <img src="/images/girls-bag-05.jpg" class="w-full h-full object-cover" alt="girls-bag-05">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Girls Unique Bag</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $50.90</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ ★ <span class="text-black/80">★</span> <span class="text-gray-400">(80)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- products card 11 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/girls-watch-01.jpg" class="w-full h-full object-cover" alt="girls-watch-01">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Girls Pink Watch</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $12.90</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-gray-400">(15)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>
+        </div>
+        
+        <!-- products card 12 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/girls-watch-02.jpg" class="w-full h-full object-cover" alt="girls-watch-02">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Girls Premium Watch</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $45.70</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ ★ ★ <span class="text-black/80">★</span> <span class="text-gray-400">(85)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div> 
+        </div>
+
+        <!-- products card 13 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/girls-watch-03.jpg" class="w-full h-full object-cover" alt="girls-watch-03">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Girls Watch</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $5</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500"><span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-gray-400">(2)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>        
+        </div>
+
+        <!-- products card 14 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/girls-watch-04.jpg" class="w-full h-full object-cover" alt="girls-watch-04">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Girls Stylish Watch</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $14.60</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-gray-400">(50)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>       
+        </div>
+        
+        <!-- products card 15 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/girls-watch-05.jpg" class="w-full h-full object-cover" alt="girls-watch-05">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Girls Unique Watch</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $180.88</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ ★ ★ <span class="text-black/80">★</span> <span class="text-gray-400">(99)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>        
+        </div>
+        
+        <!-- products card 16 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/boys-watch-01.jpg" class="w-full h-full object-cover" alt="boys-watch-01">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Boys Luxury Watch</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $70.90</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ ★ ★ <span class="text-black/80">★</span> <span class="text-gray-400">(93)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>       
+        </div>
+        
+        <!-- products card 17 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/boys-watch-02.jpg" class="w-full h-full object-cover" alt="boys-watch-02">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Boys Premium Watch</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $200.90</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ ★ ★ <span class="text-black/80">★</span> <span class="text-gray-400">(97)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>       
+        </div>
+        
+        <!-- products card 18 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/boys-watch-03.jpg" class="w-full h-full object-cover" alt="boys-watch-03">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Boys Leather Watch</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $60.80</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ ★ <span class="text-black/80">★</span> <span class="text-gray-400">(87)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>        
+        </div>
+        
+        <!-- products card 19 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/boys-watch-04.jpg" class="w-full h-full object-cover" alt="boys-watch-04">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Boys Watch</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $67.90</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ ★ <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-gray-400">(77)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>        
+        </div>
+        
+        <!-- products card 20 details -->
+        <div class="w-[100px] h-[180px] md:w-[150px] md:h-[220px] lg:w-[180px] lg:h-[250px] xl:max-w-[350px] max:h-[420px] mx-auto rounded-lg bg-white flex flex-col overflow-hidden cursor-default md:cursor-pointer md:hover:shadow-lg md:hover:shadow-gray-300 transition-all duration-500 ease-in-out">
+            <!-- product image -->
+            <div class="w-full h-[50%] overflow-hidden mb-2.5 md:mb-4">
+                <img src="/images/boys-watch-05.jpg" class="w-full h-full object-cover" alt="boys-watch-05">
+            </div>
+            <!-- flex div -->
+            <div class="flex flex-col p-1.5 md:p-2 md:gap-1 xl:gap-2">
+                <!-- product name -->
+                <h2 class="text-[10px] md:text-sm xl:text-lg text-gray-600">Boys Simple Watch</h2>
+                <!-- product price -->
+                <h3 class="text-[10px] md:text-sm xl:text-lg text-teal-700">Price: $25.90</h3>
+                <!-- product ratting -->
+                <h4 class="text-[10px] md:text-sm xl:text-lg text-yellow-500">★ ★ <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-black/80">★</span> <span class="text-gray-400">(49)</span></h4>
+                <!-- product buy button -->
+                <button class="text-[10px] md:text-sm xl:text-lg md:cursor-pointer md:hover:bg-teal-700 p-1.5 bg-teal-800 rounded-sm text-white/80">Add to Cart</button> 
+            </div>        
+        </div>
+    </section> 
+    
+    <!-- load products button section -->
+    <section class="w-full h-auto flex flex-wrap items-center justify-center mt-10 mb-10 md:mt-20 md:mb-5 lg:mb-8">
+        <button class="md:px-10 md:py-5 px-5 py-2.5 md:rounded-lg rounded-md text-white/80 lg:text-xl md:text-lg text-sm lg:font-bold md:font-semibold font-medium bg-teal-700 md:hover:bg-teal-800 md:cursor-pointer cursor-default">Load More <i class="ri-arrow-down-long-fill"></i></button>
+    </section>     
+
+    <!-- Footer Section -->
+    <footer class="w-full bg-black text-white pt-16 pb-10 px-6 md:px-16">
+        <div class="w-full flex flex-col md:flex-row justify-between gap-12">
+            <!-- Logo + About -->
+            <div class="w-full md:w-1/3 flex flex-col gap-5">
+                <div class="flex items-center gap-3">
+                    <div class="w-12 h-12 md:w-20 md:h-20 overflow-hidden rounded-full">
+                        <img src="/images/logo-image.png" class="w-full h-full object-cover" alt="logo-image">
+                    </div>
+                    <p class="text-xl md:text-3xl font-semibold">MAIB Store</p>
+                </div>
+                <p class="text-white/70 text-sm leading-relaxed">
+                MAIB Store brings premium products with reliable service,
+                fair prices and complete customer satisfaction guaranteed.
+                </p>
+
+            <!-- Social Icons -->
+            <div>
+                <p class="text-white/50 mb-2 text-sm">Follow Us</p>
+                <div class="flex gap-4 items-center">
+                    <img src="/images/footer-icon-whatsapp.png" class="w-8 h-8 cursor-pointer hover:scale-110 transition" alt="footer-icon-whatsapp">
+                    <img src="/images/footer-icon-instagram.png" class="w-8 h-8 cursor-pointer hover:scale-110 transition" alt="footer-icon-instagram">
+                    <img src="/images/footer-icon-twitter.png" class="w-8 h-8 cursor-pointer hover:scale-110 transition" alt="footer-icon-twitter">
+                </div>
+            </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="w-full md:w-1/3 flex flex-col gap-5">
+            <h3 class="text-lg font-semibold text-white">Join Our Newsletter</h3>
+            <p class="text-white/70 text-sm">Subscribe for discounts, updates and new arrivals.</p>
+
+            <input 
+                type="email" 
+                placeholder="Enter your email"
+                class="w-full bg-white/90 text-black p-3 rounded-md text-sm 
+                       placeholder:text-gray-600 focus:outline-none focus:ring-2 
+                       focus:ring-teal-500 lowercase"
+            >
+
+            <button class="bg-teal-700 hover:bg-teal-600 w-fit px-6 py-2 text-sm rounded-md">
+                Subscribe
+            </button>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="w-full md:w-1/3 flex flex-col gap-3">
+            <h3 class="text-lg font-semibold text-white">Quick Links</h3>
+
+            <a class="text-white/70 hover:text-teal-500 transition text-sm cursor-pointer">Home</a>
+            <a class="text-white/70 hover:text-teal-500 transition text-sm cursor-pointer">About Us</a>
+            <a class="text-white/70 hover:text-teal-500 transition text-sm cursor-pointer">Products</a>
+            <a class="text-white/70 hover:text-teal-500 transition text-sm cursor-pointer">Contact</a>
+            <a class="text-white/70 hover:text-teal-500 transition text-sm cursor-pointer">Privacy Policy</a>
+            <a class="text-white/70 hover:text-teal-500 transition text-sm cursor-pointer">Refund Policy</a>
+        </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="w-full border-t border-white/20 mt-12"></div>
+
+        <!-- Bottom -->
+        <div class="w-full text-center text-white/50 text-xs mt-5">
+            © 2025 MAIB Store — All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
